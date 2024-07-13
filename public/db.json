@@ -1,0 +1,170 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "imagen": "../../assets/usoletVarConst.jpg",
+      "descripcion": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript."
+    },
+    {
+      "id": "2",
+      "nombre": "¿Qué es JavaScript?",
+      "imagen": "../../assets/queEsJs.jpg",
+      "enlace": "https://www.youtube.com/watch?v=GJfOSoaXk4s",
+      "equipo": "FRONT END",
+      "descripcion": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips."
+    },
+    {
+      "id": "3",
+      "imagen": "equipofrontEnd.jpg",
+      "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Wezb Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?zz"
+    },
+    {
+      "id": "4",
+      "nombre": "Simplificando código en Java: Conoce los enum",
+      "imagen": "simplificandoCodigo.jpg",
+      "enlace": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "equipo": "BACK END",
+      "descripcion": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código?"
+    },
+    {
+      "id": "5",
+      "nombre": "¿Qué es SQL y NoSQL?",
+      "imagen": "sqlynosql.jpg",
+      "enlace": "https://www.youtube.com/watch?v=cLLKVd5CNLc",
+      "equipo": "BACK END",
+      "descripcion": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este vídeo."
+    },
+    {
+      "id": "6",
+      "imagen": "SpringFramework.jpg",
+      "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados.",
+      "titulo": "2222Spring Framework. ¿Qué es ?",
+      "categoria": "BACK END",
+      "video": "https://www.youtube.com/watch?v=t-iqt1b2qqk&t=31s"
+    },
+    {
+      "id": "7",
+      "nombre": "¿Qué son las Soft Skills?",
+      "imagen": "sorfSkills.jpg",
+      "enlace": "https://www.youtube.com/watch?v=vhwspfvI52k&t=83s",
+      "equipo": "INNOVACION Y GESTION",
+      "descripcion": "En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día."
+    },
+    {
+      "id": "8",
+      "nombre": "7 Soft Skills más deseadas por las empresas",
+      "imagen": "las7softs.jpg",
+      "enlace": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+      "equipo": "INNOVACION Y GESTION",
+      "descripcion": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? Quédate en este video con nosotros que vamos a explicarte la importancia de estas habilidades y porque son tan requeridas en el mercado laboral."
+    },
+    {
+      "id": "9",
+      "nombre": "¿Qué son las metodologias ágiles?",
+      "imagen": "metodologiasAgiles.jpg",
+      "enlace": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+      "equipo": "INNOVACION Y GESTION",
+      "descripcion": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles y nos comentará un poco sobre como aplicarlas y cuáles son los beneficios de utilizarlas en su equipo o empresa"
+    },
+    {
+      "id": "36e3",
+      "imagen": "zvcxcvxcv",
+      "descripcion": "zcvzxcvxzcvxcv",
+      "titulo": "2",
+      "categoria": "BACK END",
+      "video": "zxcvzxcvxcv"
+    },
+    {
+      "id": "5ca5",
+      "imagen": "d",
+      "descripcion": "d",
+      "titulo": "prddddduba de edicion",
+      "categoria": "FRONT END",
+      "video": "d"
+    },
+    {
+      "id": "20c9",
+      "imagen": "equipofrontEnd.jpg",
+      "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?"
+    },
+    {
+      "id": "fcc6",
+      "nombre": "Spring Framework. ¿Qué es ?",
+      "equipo": "BACK END",
+      "imagen": "SpringFramework.jpg",
+      "enlace": "https://www.youtube.com/watch?v=t-iqt1b2qqk&t=31s",
+      "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados."
+    },
+    {
+      "id": "587d",
+      "nombre": "Cuándo usar let, var y const?",
+      "equipo": "FRONT END",
+      "imagen": "../../assets/usoletVarConst.jpg",
+      "enlace": "https://www.youtube.com/watch?v=PztCEdIJITY&t=2s",
+      "descripcion": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript.w"
+    },
+    {
+      "id": "1c24",
+      "nombre": "Equipo Front End",
+      "equipo": "FRONT END",
+      "imagen": "equipofrontEnd.jpg",
+      "enlace": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?"
+    },
+    {
+      "id": "7512",
+      "nombre": "prueba de edicion2",
+      "equipo": "FRONT END",
+      "enlace": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "descripcion": "solo estoy probando"
+    },
+    {
+      "id": "db7e",
+      "nombre": "prueba 120",
+      "equipo": "FRONT END",
+      "enlace": "https://www.youtube.com/watch?v=xBZqOThtqNM",
+      "descripcion": "no se que decir ni que hacer pero se lograra",
+      "imagen": ""
+    },
+    {
+      "id": "3271",
+      "nombre": "25AYUDAAAa",
+      "equipo": "FRONT END",
+      "enlace": "https://www.youtube.com/watch?v=Me2GJIeq3iw",
+      "descripcion": "esta es la revision final"
+    },
+    {
+      "id": "52e9",
+      "nombre": "prueba3",
+      "equipo": "FRONT END",
+      "imagen": "../../assets/queEsJs.jpg",
+      "enlace": "https://www.youtube.com/watch?v=blUgbUi9rpk",
+      "descripcion": "lo que pasa aca es que si edito la card se pierde la foto y por alguna razon se duplica el nombre"
+    },
+    {
+      "id": "13cb",
+      "nombre": "pruba 6",
+      "equipo": "FRONT END",
+      "imagen": "r",
+      "enlace": "r",
+      "descripcion": "r"
+    }
+  ],
+  "equipos": [
+    {
+      "nombre": "FRONT END",
+      "color": "#6BD1FF",
+      "id": "8d4a"
+    },
+    {
+      "nombre": "BACK END",
+      "color": "#00C86F",
+      "id": "65ef"
+    },
+    {
+      "nombre": "INNOVACION Y GESTION",
+      "color": "#FFBA05",
+      "id": "d67f"
+    }
+  ]
+}

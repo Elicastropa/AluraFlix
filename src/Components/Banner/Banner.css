@@ -1,0 +1,62 @@
+.fondo {
+  height: 800px;
+  background: linear-gradient(rgba(0, 18, 51, 0.56), rgba(255, 255, 255, 0.2)),
+    url("../../assets/fondoBanner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerInfo {
+  width: 80%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 15px;
+  border-color: 1px solid #6bd1ff;
+  height: auto;
+  width: fit-content;
+  min-width: 200px;
+  color: white;
+  background-color: #6bd1ff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: left;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 200;
+  text-align: left;
+  font-size: 20px;
+}
+
+.bannerInfo img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .bannerInfo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

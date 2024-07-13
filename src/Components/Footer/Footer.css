@@ -1,0 +1,15 @@
+Footer {
+  background-color: black;
+  width: 100%;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 4px 0px 0px 0px;
+  align-items: center;
+}
+.logoAzul {
+  width: 168px;
+  height: 50px;
+  justify-content: center;
+}

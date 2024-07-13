@@ -1,0 +1,21 @@
+.body {
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.equipo {
+  background-color: black;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 100%;
+  color: white;
+  border: none;
+}
+
+.equipo h2 {
+  margin: 0 0 20px 0;
+}
