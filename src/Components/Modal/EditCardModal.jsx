@@ -20,7 +20,7 @@ const EditCardModal = ({ show, handleClose, handleSave, video }) => {
         id: video.id || '',
         nombre: video.nombre || '',
         equipo: video.equipo || '',
-        imagen: video.images || '',
+        imagen: video.imagen || '',
         enlace: video.enlace || '',
         descripcion: video.descripcion || '',
       });
@@ -36,6 +36,7 @@ const EditCardModal = ({ show, handleClose, handleSave, video }) => {
   };
 
   const handleSubmit = () => {
+    console.log('que trae el formulario', JSON.stringify(formData, null, 2))
     fetch(`http://localhost:3000/videos/${formData.id}`, {
       method: 'PUT',
       headers: {

@@ -68,7 +68,6 @@ const Card = ({ video, onDelete, onUpdate }) => {
  
   const imageName = video.imagen ? video.imagen.split('/').pop() : defaultImage;
   const imageUrl = images[imageName] || defaultImage;
-console.log('lo que muetsra emageName', imageName)
   return (
     <div className="card" style={{ borderColor: video.color }}>
       <img

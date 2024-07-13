@@ -1,28 +1,27 @@
-import React, { useState, useEffect } from "react";
-import "./Video.css";
-import Card from "../Card/Card";
-import EditCardModal from "../Modal/EditCardModal";
-import NewVideoModal  from "../Video/NewVideo";
+import { useState, useEffect } from 'react';
+import './Video.css';
+import Card from '../Card/Card';
+import EditCardModal from '../Modal/EditCardModal';
+import NewVideoModal from '../Video/NewVideo';
 
-const Video = ({ equipoNombre, color }) => {
+const Video = (props) => {
+  const { equipoNombre, color } = props;
   const [videos, setVideos] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [showNewVideoModal, setShowNewVideoModal] = useState(false);
-  const [currentVideo, setCurrentVideo] = useState(null);
+  const [currentVideo] = useState(null);
+
+  const dataSave = localStorage.getItem('SavedData');
+  const booleanValue = dataSave === 'true';
 
   useEffect(() => {
-    fetch("http://localhost:3000/videos")
+    fetch('http://localhost:3000/videos')
       .then((response) => response.json())
       .then((data) =>
         setVideos(data.filter((video) => video.equipo === equipoNombre))
       )
-      .catch((error) => console.error("Error fetching videos:", error));
-  }, [equipoNombre]);
-
-  const handleEdit = (video) => {
-    setCurrentVideo(video);
-    setShowModal(true);
-  };
+      .catch((error) => console.error('Error fetching videos:', error));
+  }, [equipoNombre, booleanValue]);
 
   const handleSaveModal = (formData) => {
     const updatedVideos = videos.map((video) =>
@@ -55,10 +54,10 @@ const Video = ({ equipoNombre, color }) => {
       enlace: formData.enlace,
     };
 
-    fetch("http://localhost:3000/videos", {
-      method: "POST",
+    fetch('http://localhost:3000/videos', {
+      method: 'POST',
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify(newVideo),
     })
@@ -67,24 +66,24 @@ const Video = ({ equipoNombre, color }) => {
         const updatedVideos = [...videos, data];
         setVideos(updatedVideos);
       })
-      .catch((error) => console.error("Error adding video:", error));
+      .catch((error) => console.error('Error adding video:', error));
 
     setShowNewVideoModal(false);
   };
 
   const handleDelete = (id) => {
     fetch(`http://localhost:3000/videos/${id}`, {
-      method: "DELETE",
+      method: 'DELETE',
     })
       .then(() => {
         const updatedVideos = videos.filter((video) => video.id !== id);
         setVideos(updatedVideos);
       })
-      .catch((error) => console.error("Error deleting video:", error));
+      .catch((error) => console.error('Error deleting video:', error));
   };
 
   return (
-    <div className="videos-list" style={{ borderColor: color }}>
+    <div className='videos-list' style={{ borderColor: color }}>
       {videos.map((video) => (
         <Card
           key={video.id}

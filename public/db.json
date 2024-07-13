@@ -110,44 +110,6 @@
       "imagen": "equipofrontEnd.jpg",
       "enlace": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
       "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?"
-    },
-    {
-      "id": "7512",
-      "nombre": "prueba de edicion2",
-      "equipo": "FRONT END",
-      "enlace": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
-      "descripcion": "solo estoy probando"
-    },
-    {
-      "id": "db7e",
-      "nombre": "prueba 120",
-      "equipo": "FRONT END",
-      "enlace": "https://www.youtube.com/watch?v=xBZqOThtqNM",
-      "descripcion": "no se que decir ni que hacer pero se lograra",
-      "imagen": ""
-    },
-    {
-      "id": "3271",
-      "nombre": "25AYUDAAAa",
-      "equipo": "FRONT END",
-      "enlace": "https://www.youtube.com/watch?v=Me2GJIeq3iw",
-      "descripcion": "esta es la revision final"
-    },
-    {
-      "id": "52e9",
-      "nombre": "prueba3",
-      "equipo": "FRONT END",
-      "imagen": "../../assets/queEsJs.jpg",
-      "enlace": "https://www.youtube.com/watch?v=blUgbUi9rpk",
-      "descripcion": "lo que pasa aca es que si edito la card se pierde la foto y por alguna razon se duplica el nombre"
-    },
-    {
-      "id": "13cb",
-      "nombre": "pruba 6",
-      "equipo": "FRONT END",
-      "imagen": "r",
-      "enlace": "r",
-      "descripcion": "r"
     }
   ],
   "equipos": [

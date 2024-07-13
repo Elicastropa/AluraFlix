@@ -18,16 +18,17 @@
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   border-radius: 15px;
   border-color: 1px solid #6bd1ff;
   height: auto;
   width: fit-content;
-  min-width: 200px;
+  min-width: 300px;
+  max-width: 100%;
   color: white;
   background-color: #6bd1ff;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
