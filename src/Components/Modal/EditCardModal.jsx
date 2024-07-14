@@ -116,7 +116,7 @@ const EditCardModal = ({ show, handleClose, handleSave, video }) => {
             </Form.Group>
 
             <Form.Group controlId="formDescripcion" className="form-group">
-              <Form.Label>Descripción333</Form.Label>
+              <Form.Label>Descripción</Form.Label>
               <Form.Control
                 as="textarea"
                 name="descripcion"
